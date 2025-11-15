@@ -1,0 +1,14 @@
+# Environnement virtuel
+.venv/
+venv/
+*.env
+
+# Fichiers secrets de Streamlit (le plus important!)
+.streamlit/secrets.toml
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Fichiers OS
+.DS_Store
