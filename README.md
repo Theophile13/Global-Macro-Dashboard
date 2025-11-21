@@ -42,9 +42,13 @@ As an aspiring finance professional, this project was built to create a centrali
 
 ## 🚀 How to Run Locally
 
-This project is configured for secure and reproducible local execution.
+This project is configured for secure and reproducible local execution using Python.
 
-**1. Clone the Repository:**
+**Prerequisites:**
+* Python 3.8 or higher installed.
+* Git installed.
+
+### 1. Clone the Repository
 ```bash
 git clone [https://github.com/Theophile13/Global-Macro-Dashboard.git](https://github.com/Theophile13/Global-Macro-Dashboard.git)
 cd Global-Macro-Dashboard
@@ -54,15 +58,18 @@ cd Global-Macro-Dashboard
 # Create the environment
 python -m venv .venv
 
+#Allow script execution (if you get permission error)
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
 # Activate (Windows PowerShell)
-.\.venv\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 
 # Activate (macOS/Linux)
-# source .venv/bin/activate
+# source venv/bin/activate
 ```
 **3. Install Dependencies:** All required libraries are listed in requirements.txt.
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_macro_dash.txt
 ```
 **4. Set Up API Keys (Secrets):** This project requires a free API key from the St. Louis FRED.
 
