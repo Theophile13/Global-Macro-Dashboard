@@ -50,7 +50,7 @@ This project is configured for secure and reproducible local execution using Pyt
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Theophile13/Global-Macro-Dashboard.git](https://github.com/Theophile13/Global-Macro-Dashboard.git)
+git clone https://github.com/Theophile13/Global-Macro-Dashboard.git
 cd Global-Macro-Dashboard
 ```
 **2. Create and Activate a Virtual Environment:**
